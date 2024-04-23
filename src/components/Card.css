@@ -1,0 +1,129 @@
+*{
+    margin: 0;
+    position: 0;
+    box-sizing: border-box ;
+    cursor: pointer;
+}
+
+section{
+    color: RGB(15, 23, 42);
+    /* border: 2px solid black; */
+    width: 80%;
+    margin-top: 3rem ;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3, .price, .remove-btn{
+    margin-bottom: 10px;
+}
+
+h1{
+    /* border: 2px solid greenyellow; */
+    padding: 2rem 10px;
+    font-size: 50px;
+    text-align: center;
+    text-shadow: 2px 2px 2px red, 0 0 1em blue, 0 0 0.2em blue;
+}
+
+article{
+    /* border: 2px solid green; */
+    display: flex;
+    height: 30vh;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#img{
+    width: 140px;
+
+}
+
+.left{
+    display: flex;
+
+}
+
+.right{
+    display: flex;
+    justify-content: space-between;
+   
+    margin-left: 600px;
+}
+
+main{
+    display: flex;
+    width: 40px;
+    height: 80px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+    width: 50%;
+    
+}
+
+.details{
+    margin-top: 10px;
+}
+
+#btn1{
+    border: none;
+  background: none;
+  font-size: 40px;
+  margin-bottom: -10px;
+
+}
+
+#btn22{
+    border: none;
+    background: none;
+    font-size: 40px;
+
+}
+span{
+    font-size: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+    width: 100%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 25px;
+
+}
+
+li{
+    list-style: none;
+
+}
+
+li:last-child{
+    padding: 1px;
+    background-color: blue;
+    margin-right: 65px;
+}
+
+.clear{
+    padding: 8px;
+    background-color: red;
+    color: white;
+}
+
+hr{
+   color: rgb(19, 212, 115);
+    background-color: black;
+}
+
+.remove-btn{
+}

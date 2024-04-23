@@ -1,0 +1,26 @@
+navbar{
+    background-color: rgb(13, 32, 231);
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    font-size: 30px;
+}
+.heading1{
+    background-color: rgb(13, 32, 231);
+}
+#icon{
+    font-size: 30px;
+    background: rgb(13, 32, 231);
+
+}
+
+sup{
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 3px;
+  
+    color: white;
+}
